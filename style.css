@@ -1,0 +1,19 @@
+.container{
+    background-color: mistyrose;
+}
+.newClass{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    outline: 2px pink solid;
+    color: black;
+    padding: 20px;
+    
+}
+.newClass strong{
+    font-size: large;
+    font-style: italic;  
+}
+.newClass label{
+    font-size: medium;
+}
