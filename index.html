@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Survey Builder</title>
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="my-6 has-text-centered box" id="welcomeUser">
+            <h1 class="title">Welcome user!</h1>
+            <a><button id="createSurvey" class="button is-success is-light is-medium is-outlined is-rounded"> Create A Survey</button></a>   
+        </div>
+
+    
+
+    <div id="surveyBuildingDiv" class="buildSurvey my-6 p-6">
+        <h1 class="title">Add questions and options</h1>
+
+        <form action="" class="form my-6" id="questionForm" autocomplete="off">
+            <label class="label my-5">Please type the  question below</label>
+            <input class="textarea mb-6"  id="surveyQuestion"> 
+            
+            <label class="label">Enter  options </label>
+            <div id="div1">    
+                <input class="input is-info my-1" placeholder="Option 1"  id="option1">
+            </div>
+            <div id="div2">
+                <input class="input is-info my-1" placeholder="Option 2" id="option2">
+            </div>
+            <div id="div3">
+                <input class="input is-info my-1" placeholder="Option 3" id="option3">
+            </div>
+            <div id="div4">
+                <input class="input is-info my-1" placeholder="Option 4" id="option4">
+            </div>
+
+            <button class="button mt-4 is-rounded" id="addMoreOptions">Add more options</button>
+            <button class="button mt-4 is-rounded is-success"  id="saveQuestion">Save Question</button>
+
+        </form>
+    
+        <!-- <button class="button" id="addQuestion">Add another question</button> -->
+         <!-- <button class="button" id="saveQuestion">Add another question</button>  -->
+
+    </div>
+
+    <div class="container box has-text-centered" id="finishButton">
+    <button class="button is-success is-light is-medium is-outlined is-rounded" id="finishButton">Finished</button>
+    </div>
+
+
+
+
+    <div id="finalSurveyForm">
+        <h1 class="title">You have successfully created your survey from! </h1>
+    </div> 
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
